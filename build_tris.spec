@@ -57,7 +57,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name="my_tris",   # nome eseguibile generato
+    name="belze_tris",   # nome eseguibile generato
     debug=False,        # True se vuoi log di debug (utile per test)
     bootloader_ignore_signals=False,
     strip=False,        # True per rimuovere simboli debug (più leggero)

@@ -1,4 +1,4 @@
-name: Build EXE on Windows
+name: Build EXE on macOS
 
 on:
 #  push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: macos-latest
 
     steps:
       - name: Checkout repo
@@ -31,5 +31,5 @@ jobs:
       - name: Upload EXE
         uses: actions/upload-artifact@v4
         with:
-          name: tris-windows
-          path: dist/belze_tris.exe
+          name: tris-macos
+          path: dist/belze_tris
